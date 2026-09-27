@@ -5,21 +5,16 @@
 Общая информация
 ================
 
-Исходный код pymorphy2 распространяется по лицензии MIT и доступен на github:
-https://github.com/kmike/pymorphy2
+Исходный код pymorphy3 распространяется по лицензии MIT и доступен на github:
+https://github.com/no-plagiarism/pymorphy3
 
-Баг-трекер: https://github.com/kmike/pymorphy2/issues.
-Для общения можно использовать `гугл-группу`_ (есть какие-то идеи,
-предложения, замечания - пишите).
+Баг-трекер: https://github.com/no-plagiarism/pymorphy3/issues.
 
-Если вы хотите улучшить код pymorphy2 - может быть
+Если вы хотите улучшить код pymorphy3 - может быть
 полезным ознакомиться с разделом :ref:`internals`.
 
-pymorphy2 работает под Python 2.x и 3.x без использования
-утилиты 2to3; написание такого кода, по опыту, оказывается не сложнее
-написания кода просто под 2.х, но поначалу требует некоторой внимательности
-и осторожности. Пожалуйста, пишите и запускайте тесты,
-если что-то меняете.
+pymorphy3 работает под Python 3.9+ (поддерживаются CPython и PyPy).
+Пожалуйста, пишите и запускайте тесты, если что-то меняете.
 
 Улучшать можно не только код - улучшения в документации, идеи и
 сообщения об ошибках тоже очень ценны.
@@ -27,24 +22,22 @@ pymorphy2 работает под Python 2.x и 3.x без использова�
 Словари
 =======
 
-Поддержка русского языка в pymorphy2 основывается на словарях из OpenCorpora_
+Поддержка русского языка в pymorphy3 основывается на словарях из OpenCorpora_
 и использует наборы текстов оттуда для автоматического тестирования
 и замеров скорости; в будущем планируется также использовать размеченный
 корпус для снятия неоднозначности разбора, ну и в целом это классный проект.
-Любая помощь OpenCorpora_ - это вклад и в pymorphy2.
+Любая помощь OpenCorpora_ - это вклад и в pymorphy3.
 
 Экспериментальный украинский словарь корнями уходит в проект LanguageTool_;
 отдельно он доступен тут: https://github.com/arysin/dict_uk, скрипты
 для преобразования в формат OpenCorpora - тут:
 https://github.com/dchaplinsky/LT2OpenCorpora.
 
-Все словари преобразуются в формат pymorphy2 скриптами отсюда:
-https://github.com/kmike/pymorphy2-dicts
+Все словари преобразуются в формат pymorphy3 скриптами отсюда:
+https://github.com/no-plagiarism/pymorphy3-dicts
 
 .. _LanguageTool: https://languagetool.org/
 .. _OpenCorpora: http://opencorpora.org
-.. _баг-трекер: https://github.com/kmike/pymorphy2/issues
-.. _гугл-группу: https://groups.google.com/forum/?fromgroups#!forum/pymorphy
 
 .. _testing:
 
@@ -82,4 +75,4 @@ https://github.com/kmike/pymorphy2-dicts
 
     tox -c bench.ini
 
-из папки с исходным кодом pymorphy2.
+из папки с исходным кодом pymorphy3.

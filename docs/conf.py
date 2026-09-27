@@ -47,7 +47,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Морфологический анализатор pymorphy3'
-copyright = '2013-2020, Mikhail Korobov'
+copyright = '2013-2026, Mikhail Korobov, Danylo Halaiko and pymorphy3 contributors'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -172,7 +172,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'pymorphy2doc'
+htmlhelp_basename = 'pymorphy3doc'
 
 
 # -- Options for LaTeX output --------------------------------------------------

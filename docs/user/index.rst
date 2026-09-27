@@ -9,5 +9,6 @@
    :maxdepth: 2
 
    guide
+   cli
    grammemes
    contributing

@@ -23,13 +23,17 @@ Analyzer units
 .. automodule:: pymorphy3.units.by_shape
     :members:
 
+.. automodule:: pymorphy3.units.unkn
+    :members:
+
+.. automodule:: pymorphy3.units.abbreviations
+    :members:
+
 Tagset
 ------
 
 .. automodule:: pymorphy3.tagset
     :members: OpencorporaTag
-
-.. _cli:
 
 Command-Line Interface
 ----------------------
